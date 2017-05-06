@@ -1,0 +1,167 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+#connectionStatus{
+    width:32px;
+    height:32px;
+    background-image: url('../image/circle_red.png');
+    background-repeat: no-repeat;
+    margin: 8px 12px 0 0;
+    float: right;
+}
+
+#widget_comPortSelect{
+    float: right;
+    margin: 8px 12px 0 0;
+    font-size: 1.2em;
+    width:100px;
+}
+
+#widget_baudrateSelect{
+    float: right;
+    margin: 8px 12px 0 0;
+    font-size: 1.2em;
+    width:100px;
+}
+
+
+.TopPane{
+    height:5%;
+    overflow: hidden;
+}
+
+.dijitButton{
+    font-size:1.2em;
+    float: right;
+    width:90px;
+}
+
+.titleLeft{
+    float: left;
+    font-size:2em;
+    width:20%;
+}
+.titleRight{
+    float: right;
+    width:65%;
+    height:100%;
+}
+
+#HR {
+    font-size: 2em;
+    font-weight: bolder;
+    width:200px;
+    float: left;
+}
+
+#chartOne {
+
+    width: 100%;
+    height: 150px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+#chartTwo {
+    width: 100%;
+    height: 150px;
+    font-size: 2em;
+    font-weight: bolder;
+
+}
+
+#chartThree {
+    width: 100%;
+    height: 150px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+#chartFour {
+    width: 100%;
+    height: 150px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.DataChart{
+
+    margin:30px 10px 0 30px;
+
+}
+
+#btn2{
+    height: 25px;
+    width: 80px;
+
+    font-size:1.2em;
+
+}
+.HRupload {
+    float: left;
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-HRupload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-HRupload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+.ACTupload {
+    margin-left:40px;
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-ACTupload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-ACTupload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
